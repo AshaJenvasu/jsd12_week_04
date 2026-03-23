@@ -1,3 +1,26 @@
 p {
   color: yellowgreen;
 }
+
+body {
+  font-family: "Caveat Brush", cursive;
+}
+
+.tiktok {
+  font-size: 200px;
+  font-weight: bold;
+  text-shadow:
+    -5px -5px 0px cyan,
+    /*X Y Blur Color*/ 5px 5px 0px red;
+  margin: 0px;
+}
+
+.tiktok-background {
+  background-color: black;
+  border-radius: 50px;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
